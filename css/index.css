@@ -1,0 +1,137 @@
+.nav-list-item {
+    min-width: 123px
+}
+
+.nav-list-item a {
+    text-align: center;
+}
+
+.nav-list-item:hover a, .active.nav-list-item {
+    color: #fff;
+}
+
+.nav-list-item:hover, .nav-list-item.active {
+    background-color: rgb(254, 187, 84);
+}
+
+.title-left-txt::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FBC252;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.more-txt p::after {
+    width: 570px;
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(to right, red, yellow);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+.work-news .more-txt p::after {
+    width: 1210px;
+}
+
+.new-list-item::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -1.5px;
+}
+
+.mid_pic {
+    margin: 20px 0;
+}
+
+.work-news-list {
+    width: 930px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.work-news-list .work-news-list-item {
+    display: inline-block;
+    width: 46%;
+    padding: 5px 30px 5px 0;
+    position: relative;
+}
+
+.work-news-list-item::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 35%;
+}
+
+.news-title {
+    width: 65%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 3px 0 3px 30px;
+}
+
+.news-date {
+    width: 25%;
+    text-align: right;
+    color: #999;
+    padding: 3px 0;
+}
+
+.activity-news {
+    margin-top: 10px;
+}
+
+.activity-news .more-txt p::after {
+    width: 545px;
+}
+
+.activity-news-list {
+    width: 595px;
+}
+
+.activity-news-list .activity-news-list-item {
+    display: block;
+    padding: 5px 30px 5px 0;
+    position: relative;
+    width: 100%;
+}
+
+.activity-news-list-item::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 35%;
+}
+
+.party-album {
+    margin-top: 20px;
+}
+
+.party-album .more-txt p::after {
+    width: 1210px;
+}
